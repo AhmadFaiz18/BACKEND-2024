@@ -15,3 +15,6 @@ Route::put('/student/{id}',[StudentController::class, 'update']);
 
 Route::delete('/student/{id}',[StudentController::class, 'destroy']);
 
+Route::get('/student/{id}',[StudentController::class, 'show']);
+
+
