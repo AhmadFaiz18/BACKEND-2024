@@ -14,5 +14,5 @@ Route::put('/pegawais/{id}', [PegawaiController::class, 'update']);
 Route::delete('/pegawais/{id}', [PegawaiController::class, 'destroy']);
 Route::get('/pegawais/{id}', [PegawaiController::class, 'search']);
 Route::get('/pegawais/{id}', [PegawaiController::class, 'active']);
-Route::get('/pegawais/{id}', [PegawaiController::class, 'inactive']);
+Route::get('/pegawais/{id}', [PegawaiController::class, 'inactive']);   
 Route::get('/pegawais/{id}', [PegawaiController::class, 'terminated']);
